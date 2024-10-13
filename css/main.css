@@ -1,0 +1,49 @@
+:root {
+    background: #f0f5f7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    .into {
+        width: 100%;
+        height: 100vh;
+        background: #242529;
+        display: grid;
+        place-content: center;
+
+        a {
+            background: #642B73;
+            /*fallbackforoldbrowsers*/
+            background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+            /*Chrome10-25,Safari5.1-6*/
+            background: linear-gradient(to right, #C6426E, #642B73);
+            /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+            padding: 20px;
+            color: #f0f5f7;
+            text-decoration: none;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -ms-border-radius: 4px;
+            -o-border-radius: 4px;
+        }
+    }
+}
+
+.contentTable {
+    margin: 20px;
+    padding: 20px;
+}
+
+#example_wrapper>.dt-search {
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
